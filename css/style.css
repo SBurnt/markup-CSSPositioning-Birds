@@ -1,0 +1,146 @@
+body {
+	background: #4a99d3;
+	font-family: 'Open Sans', sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+.container {
+	margin: 0 auto;
+	width: 800px;
+	position: relative;
+	margin-top: 109px;
+}
+
+.content {
+	background-color: rgba(15, 23, 50, 0.69);
+	position: relative;
+	border: #2c5881 solid 1px;
+	padding-top: 75px;
+	padding-left: 75px;
+	padding-right: 75px;
+	text-align: center;
+	z-index: 2
+}
+
+h1 {
+	font-size: 36px;
+	text-align: left;
+	padding-bottom: 45px;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: left;
+	padding-bottom: 45px;
+}
+
+p {
+	font-size: 14px;
+	text-align: left;
+	padding-bottom: 25px;
+}
+
+.birds {
+	padding-top: 100px;
+	padding-bottom: 150px;
+	text-align: center;
+}
+
+.icons {
+	position: fixed;
+	top: 110px;
+	left: 50%;
+	transform: translate(-435px, 0);
+	z-index: 3;
+}
+
+.icons a {
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+
+.twitter {
+	background: url(../img/icons.png) 0px 105px;
+}
+
+.facebook {
+	background: url(../img/icons.png) 0px 70px;
+}
+
+.vk {
+	background: url(../img/icons.png) 0px 35px;
+}
+
+.twitter:hover {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+	border-radius: 50%;
+	transition: .7s;
+}
+
+.vk:hover {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+	border-radius: 50%;
+	transition: .7s;
+}
+
+.facebook:hover {
+	border: 1px solid #ccc;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+	border-radius: 50%;
+	transition: .7s;
+}
+
+.cloud-t-l {
+	position: absolute;
+	background: url(../img/cloud-t-l.png) no-repeat;
+	opacity: 0.6;
+	width: 568px;
+	height: 186px;
+	top: 55px;
+	left: -250px;
+	z-index: 1;
+}
+
+.cloud-t-r {
+	position: absolute;
+	background: url(../img/cloud-t-r.png) no-repeat;
+	width: 279px;
+	height: 158px;
+	top: -50px;
+	left: 670px;
+	z-index: 3;
+}
+
+.cloud-b-l {
+	position: absolute;
+	background: url(../img/cloud-b-l.png) no-repeat;
+	opacity: 0.6;
+	width: 211px;
+	height: 139px;
+	top: 280px;
+	left: 50px;
+	z-index: 3;
+}
+
+.cloud-b-r {
+	position: absolute;
+	background: url(../img/cloud-b-r.png) no-repeat;
+	opacity: 0.6;
+	width: 559px;
+	height: 186px;
+	top: 230px;
+	left: 461px;
+	z-index: 1;
+}
+
+.grass {
+	position: fixed;
+	background: url(../img/grass.png) repeat-x;
+	height: 132px;
+	width: 100%;
+	bottom: 0;
+	z-index: 3;
+}
